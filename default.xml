@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="yoctoproject" fetch="git://git.yoctoproject.org/" revision="warrior" />
+    <remote name="willpnw" fetch="ssh://git@github.com/willpnw/" revision="master" />
+
+    <project name="poky" remote="yoctoproject" path="." />
+    <project name="meta-raspberry.git" remote="willpnw" path="meta-raspberry" />
+</manifest>
